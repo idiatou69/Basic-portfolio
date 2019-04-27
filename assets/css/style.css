@@ -1,0 +1,82 @@
+**
+ * F/loat Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+   
+  }
+  .clearfix  {
+       
+      clear: both;
+  }
+  .container {
+      margin: 0 auto;
+      width: 1024px;
+  }
+  clearfix::after{
+    clear: both;
+}
+  img{
+      float: left;
+      width: 30%;
+      height: 340px;
+  }
+  #piri{
+      float: left;
+      widows: 70%;
+  }
+  
+  h1{
+      float: left;
+  }
+  li{
+    float: right;
+  }
+  nav{
+      width: 100%;
+      background-color: red;
+      height: 80px;
+      
+  }
+  .myname{
+      display: block;
+      background-color: #44aaaa;
+      color:white;
+      height: 100%;
+      width: 30%;
+  }
+  .head1{
+      margin: 0 auto;
+      width:960px;
+      height: 100%;
+      background-color: aqua;
+  }
+  .btns{
+      
+  }
+  .pci{
+      float: right;
+
+  }
+  .contact{
+      display: inline-block;
+      padding: 20px;
+      background-color: blueviolet;
+      height: 40px;
+
+  }
+  footer{
+      width: 100%;
+      height: 80px;
+      text-align: center;
+      background-color: beige;
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+  }
+  .mainsection{
+      margin: 0 auto;
+      width: 960px;
+      
+  }
