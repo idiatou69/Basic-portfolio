@@ -46,6 +46,8 @@
       color:white;
       height: 60px;
       width: 25%;
+      text-align: center;
+      line-height: 60px;
       
   }
   .img{
@@ -83,6 +85,11 @@
       bottom: 0px;
       left: 0px;
   }
+  #clear{
+    clear: both;
+    margin-bottom: 100px
+
+  }
   .mainsection{
       margin: 0 auto;
       width: 960px;
@@ -113,14 +120,20 @@
     color: #4aaaa5;
 }
 .mee{
-    background: #ffffff;
     color:#4aaaa5;
-}
-.pipe{
-    float: right;
-    width: 70%;
 
 }
-.pope{
-    float: auto;
+.img{
+    margin:10px;
+    float: left;
+    margin-left: 0px;
+
+}
+.pipe{
+    font-size: 20px;
+    line-height: 1.6
+}
+body{
+    background:whitesmoke;
+
 }
