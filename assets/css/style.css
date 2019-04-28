@@ -20,11 +20,11 @@
   img{
       float: left;
       width: 30%;
-      height: 340px;
+      height: 140px;
   }
-  #piri{
-      float: left;
-      widows: 70%;
+   .piri{
+      float: right;
+      width: 70%;
   }
   
   h1{
@@ -35,34 +35,42 @@
   }
   nav{
       width: 100%;
-      background-color: red;
+      background-color:white;
+      color: white;
       height: 80px;
       
   }
   .myname{
       display: block;
-      background-color: #44aaaa;
+      background-color:#4aaaa5;
       color:white;
-      height: 100%;
-      width: 30%;
+      height: 60px;
+      width: 25%;
+      
+  }
+  .img{
+      position: relative;
+      width:30%;
+      height: 40%;
+      float: left;
   }
   .head1{
       margin: 0 auto;
       width:960px;
       height: 100%;
-      background-color: aqua;
+      background-color:#ffffff;
   }
-  .btns{
-      
-  }
+  
   .pci{
       float: right;
+      background-color:white;
+      color: #666666;
 
   }
   .contact{
       display: inline-block;
       padding: 20px;
-      background-color: blueviolet;
+      background-color:white;
       height: 40px;
 
   }
@@ -70,7 +78,7 @@
       width: 100%;
       height: 80px;
       text-align: center;
-      background-color: beige;
+      background-color:#666666;
       position: fixed;
       bottom: 0px;
       left: 0px;
@@ -78,5 +86,41 @@
   .mainsection{
       margin: 0 auto;
       width: 960px;
-      
+
   }
+  .pere{
+      float:middle;
+  }
+  
+.cnct{
+    width: 100%;
+}
+.lmail{
+    width: 100%;
+}
+.msg{
+    width: 100%;
+    height: 150px;
+}
+.sbt{
+    background: #4aaaa5;
+    color:white;
+    height: 30px;
+    width: 10%;
+}
+.por{
+    background: white;
+    color: #4aaaa5;
+}
+.mee{
+    background: #ffffff;
+    color:#4aaaa5;
+}
+.pipe{
+    float: right;
+    width: 70%;
+
+}
+.pope{
+    float: auto;
+}
